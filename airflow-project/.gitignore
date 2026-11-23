@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Airflow logs
+logs/
+airflow.db
+airflow.cfg
+
+# Local backups
+*_backup.*
+*.bak
+
+# Editor files
+.vscode/
+.idea/
